@@ -23,3 +23,9 @@ compile("org.springframework.boot:spring-boot-starter-thymeleaf")
   <p th:text = "'hello123,'+${name}+'!'"> mapping RequestParam
   1 hello123 <=> value = name => name = "hello123"
   2 ${name} => 預設是world456 defaultValue
+
+############################################
+
+1 DI
+  Configuration bean
+  bean inject
