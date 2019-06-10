@@ -29,3 +29,12 @@ compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 1 DI
   Configuration bean
   bean inject
+
+2 CommandLineRunner <=>  public void run(String... args) throws Exception
+
+3 delcare multi bean using Autowired
+   @Autowired  @Qualifier("add")  <=> @Bean(name = "add")
+
+4 use bean
+  ApplicationContext context;
+  Caculator Divcalu = context.getBean("div",Caculator.class);
