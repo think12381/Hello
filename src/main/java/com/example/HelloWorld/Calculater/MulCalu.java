@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.Calculater;
 
 public class MulCalu implements Caculator{
     @Override

@@ -38,3 +38,13 @@ compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 4 use bean
   ApplicationContext context;
   Caculator Divcalu = context.getBean("div",Caculator.class);
+
+
+#################################################################
+
+1 restful API 回傳通常是json or xml
+
+@RestController VS @Controller
+@RestController = @Controller + @ResponseBody
+
+

@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.Calculater;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

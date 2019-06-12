@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.Calculater;
 
 public interface Caculator {
     int calu(int a, int b);
