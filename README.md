@@ -47,4 +47,14 @@ compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 @RestController VS @Controller
 @RestController = @Controller + @ResponseBody
 
+2 add lombok to create setter getter... ex Message
+
+3 Json format ex : {"id":888,"name":"Mark"}
+
+  物件(object) ex Message 用大括號 { }
+
+  key-value type  so
+  id = 888
+  name = mark
+
 
