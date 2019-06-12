@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.Service;
 
 
 public class Message {

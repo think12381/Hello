@@ -1,7 +1,6 @@
 package com.example.HelloWorld.Controller;
 
-import com.example.HelloWorld.Message;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import com.example.HelloWorld.Service.Message;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
