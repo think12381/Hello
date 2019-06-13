@@ -58,3 +58,5 @@ compile("org.springframework.boot:spring-boot-starter-thymeleaf")
   name = mark
 
 
+4 sigleton 概念上有點類似static 的概念 就是一但生成便所有的人皆可以存取
+  prototype 每一次都會產生出一個instance 使用完就放在那

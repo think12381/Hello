@@ -1,8 +1,17 @@
 package com.example.HelloWorld.Service;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
+@Component
+@Scope("prototype")
 public class Message {
+
+    @Value("-1")
     private int id;
+
+    @Value("simon")
     private String name;
 
     public int getId() {
